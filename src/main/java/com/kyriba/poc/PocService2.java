@@ -10,7 +10,7 @@ package com.kyriba.poc;
 import javax.annotation.Nonnull;
 
 @FunctionalInterface
-public interface PocService {
+public interface PocService2 {
     @Nonnull
-    String capitalize(@Nonnull String bresilien) throws ValidationException;
+    Result<String> capitalize(@Nonnull String bresilien);
 }
